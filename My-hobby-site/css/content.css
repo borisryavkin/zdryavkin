@@ -1,0 +1,44 @@
+
+.content {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-image {
+    max-width: 75%;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+.a-contact {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 256px;
+    width: 256px;
+    float: left;
+    margin-right: 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+}
