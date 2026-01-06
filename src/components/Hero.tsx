@@ -16,10 +16,10 @@ const Hero: React.FC<HeroProps> = ({ onStartSurvey }) => {
           <div className="space-y-8">
             <h1 className="text-4xl md:text-6xl font-light text-brand-green-900 leading-tight">
               Оптимальные решения для{' '}
-              <span className="font-medium">вашего здоровья</span>
+              <span className="font-medium">здоровья</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Персонализированные добавки на основе природных компонентов
+              Персонализированные добавки на основе природных компонентов, рекомендованны ведущими медицинскими специалистами!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button 

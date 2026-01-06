@@ -32,22 +32,22 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
-        <h2 className="text-2xl md:text-4xl font-serif text-center text-brand-green-800 mb-12">
+        <h2 className="text-2xl md:text-4xl font-sans font-extrabold text-center text-brand-green-800 mb-12">
           Отзывы наших клиентов
         </h2>
         
         <div className="relative max-w-3xl mx-auto">
           <div className="bg-brand-green-50 rounded-lg p-8 shadow-sm">
-            <div className="text-xl italic text-gray-700 mb-6">
+            <div className="text-xl font-sans font-normal text-gray-800 mb-6">
               "{testimonials[currentIndex].text}"
             </div>
             <div className="flex items-center">
-              <div className="w-12 h-12 bg-brand-green-200 rounded-full flex items-center justify-center text-brand-green-800 font-medium text-lg">
+              <div className="w-12 h-12 bg-brand-green-200 rounded-full flex items-center justify-center text-brand-green-800 font-bold text-lg font-sans">
                 {testimonials[currentIndex].author.charAt(0)}
               </div>
               <div className="ml-4">
-                <div className="font-medium text-brand-green-700">{testimonials[currentIndex].author}</div>
-                <div className="text-sm text-gray-500">{testimonials[currentIndex].position}</div>
+                <div className="font-semibold font-sans text-brand-green-700 text-base">{testimonials[currentIndex].author}</div>
+                <div className="text-sm font-sans text-gray-500">{testimonials[currentIndex].position}</div>
               </div>
             </div>
           </div>
