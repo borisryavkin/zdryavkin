@@ -1,4 +1,4 @@
-# Dr. Zdryavkin - Персонализированные добавки для здоровья
+# Dr. Zdryavkin's - Персонализированные добавки для здоровья
 
 Веб-сайт для бренда персонализированных пищевых добавок "Dr. Zdryavkin". Сайт разработан с использованием React и Tailwind CSS, с адаптивным дизайном для мобильных и десктопных устройств.
 
@@ -44,4 +44,7 @@ npm run build
 - React
 - TypeScript
 - Tailwind CSS
-- React Icons 
+- React Icons
+
+## Development screenshots
+<img width="299" height="82" alt="  2026-01-06 at 6 51 52 PM" src="https://github.com/user-attachments/assets/16c4ad33-4dd2-495f-9a8b-4a7b9494ef8d" />
